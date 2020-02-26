@@ -1,0 +1,75 @@
+* {
+  font-family: "Nunito";
+}
+
+/* Input section*/
+
+/* shopping section */
+#shopping {
+  user-select: none;
+  border-bottom: 0 none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+  border-radius: 25rem;
+}
+
+/* List title */
+.title {
+  color: #f8f9fa;
+  background-color: #262b2f;
+  border-radius: 0.25rem 0.25rem 0 0;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.title h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* List Content */
+.listBox {
+  min-height: 300px;
+  background-color: #343a40;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.listBox .row:last-child {
+  justify-content: center;
+}
+
+/* Items list */
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  margin: 2rem 0;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.listDone {
+  border-radius: 0.25rem 0 0 0.25rem;
+  background-color: #1dca45;
+  color: #f8f9fa;
+}
+
+.list p {
+  width: 100%;
+  padding: 1rem 0 1rem 1rem;
+  margin: 0;
+}
+
+.list span.delete {
+  color: #f8f9fa;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  background-color: rgb(243, 20, 20);
+  border-radius: 0px 0.25rem 0.25rem 0;
+}
+
+.list span.delete:hover {
+  color: #e9eaeb;
+  background-color: rgb(212, 18, 18);
+}
